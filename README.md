@@ -11,7 +11,7 @@ This is done by minimizing the following Energy term:
     <img width="50%" src="./figures/energy_equation.png"> 
 </p>
 
-Where the energy, E, is composed of the Unary, U term and Pairwise (Binary) term, P.
+Where the energy, E, is composed of the Unary term, U and Pairwise (Binary) term, P.
 
 The unary term represents the cost of assigning a label to a pixel based on some relationship between the pixel value and the label.
 The binary term is a smoothness parameter, specifying the cost for assigning differing labels to neighboring pixels.

@@ -22,8 +22,8 @@ All pixels also have an edge with the source and sink.
 
 Using the MinCut-MaxFlow algorithm, the optimal cut can be produced separating pixels belonging to the sink from those belonging to the source, thus yielding the pixel-wise label.
 
-https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Image_segmentation_problem
-
 <p align="center" width="100%">
     <img width="50%" src="./figures/result.png"> 
 </p>
+
+https://en.wikipedia.org/wiki/Maximum_flow_problem#Image_segmentation

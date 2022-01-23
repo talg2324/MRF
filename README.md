@@ -1,7 +1,6 @@
 # MRF
-## Markov Random Field for binary image segmentation
+## Markov Random Field for Binary Image Segmentation
 
-## Markovian Image Analysis
 The Markov Random Field classifier assigns the maximum likelihood label to a pixel based on its value and neighborhood.  
 In 2D, the Markovian property is represented by a pixel's 8-neighborhood or 4-neighborhood.
 
@@ -22,6 +21,8 @@ Minimizing the energy term is implemented as a graph problem: each pixel is a no
 All pixels also have an edge with the source and sink.
 
 Using the MinCut-MaxFlow algorithm, the optimal cut can be produced separating pixels belonging to the sink from those belonging to the source, thus yielding the pixel-wise label.
+
+https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Image_segmentation_problem
 
 <p align="center" width="100%">
     <img width="50%" src="./figures/result.png"> 
